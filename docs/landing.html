@@ -48,11 +48,10 @@
 								<img src="images/pic07.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>Data Science Projects</h1>
+								<h1>Dan Hislop</h1>
 							</header>
 							<div class="content">
-								<p>Selected highlights of Machine Learniing and Analytics Projects<br />
-								(Due to data privacy not all work-related projects can be shown)</p>
+								<p>Selected highlights of Machine Learning and Analytics Projects</p>
 							</div>
 						</div>
 					</section>
@@ -64,17 +63,9 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Seasonally Adjusted Customer Projections</h2>
+										<h2>Project List</h2>
 									</header>
-									<p>I recently faced a challenge to help a Customer Support department predict customer call volume: how many phone calls might arrive next month?
-										The problem: customers have widely varying volumes, different seasonal patterns, and not always enough history.</p>
-									<br>
-									<p>This time-series analysis required seasonal decomposition in a way that addressed these challenges.
-										By developing a portable metric called "Monthly Seasonal Percentage", I was able to move beyond individual customers to detect industry seasonality
-										and with that, expand the projections to customers without a year over year history.
-										Read more about the project <a href="https://medium.com/datadream/seasonally-adjusted-usage-projections-c7465f23ee3d">here</a>. </p>
-									<br>
-									<a href="https://medium.com/datadream/seasonally-adjusted-usage-projections-c7465f23ee3d" class="button">Read More</a>
+									<p>Project summaries, write-ups, and links to code where work-related privacy allows.</p>
 								</div>
 							</section>
 
@@ -87,27 +78,37 @@
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Orci maecenas</h3>
+												<h3>Seasonally Adjusted Projections</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>I recently faced a challenge to help a Customer Support department predict customer call volume: how many phone calls might arrive next month?
+												The problem: customers have widely varying volumes, different seasonal patterns, and not always enough history.</p>
+											<br>
+											<p>This time-series analysis required seasonal decomposition in a way that addressed these challenges.
+												By developing a portable metric called "Monthly Seasonal Percentage", I was able to move beyond individual customers to detect industry seasonality
+												and with that, expand the projections to customers without year over year history.
+												Read more about the project <a href="https://medium.com/datadream/seasonally-adjusted-usage-projections-c7465f23ee3d">here</a>. </p>
+											<br>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://medium.com/datadream/seasonally-adjusted-usage-projections-c7465f23ee3d" class="button">Read about my solution</a>
+												</li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
 									<a href="generic.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
+										<img src="images/dist_weibull.png" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Rhoncus magna</h3>
+												<h3>Random Variable Generator</h3>
 											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<p>In this coding project I created a  <a href="https://github.com/danhislop/Projects/blob/master/RVDistributions/README.md">Random Variate Generator</a>, which creates both discrete and continuous random variates from common distributions such as Geom(p), Exp(λ), Normal(μ,σ2), Gamma(α,β), Weibull(α,β), etc. Here I start with a uniform distribution and build the others, plotting my code's output against numpy's built-in generators.</p>
+											<br>
+											<p> The need for such a "classroom" project came into clear focus at work when I built a Bayesian Inference model to predict customer retention. Choosing the prior distributions were especially important given the small dataset I had (so it didn't overly influence outcomes), and this in-depth study paid off.</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="https://github.com/danhislop/Projects/blob/master/RVDistributions/README.md" class="button">See on Github </a></li>
 											</ul>
 										</div>
 									</div>
